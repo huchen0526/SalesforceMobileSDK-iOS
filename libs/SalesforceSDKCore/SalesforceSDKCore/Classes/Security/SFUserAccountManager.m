@@ -1209,7 +1209,7 @@ static int const kSFSDKUserAccountManagerErrorCode = 100;
             [client cancelAuthentication:YES];
             [strongSelf disposeOAuthClient:client];
             [strongSelf notifyUserCancelledOrDismissedAuth:client.credentials andAuthInfo:client.context.authInfo];
-            /* 不强行写入login.salesforce.com host */
+            /* 不强行写入login.salesforce.com host 11111*/
 //            SFSDKLoginHost *host = [[SFSDKLoginHostStorage sharedInstance] loginHostAtIndex:0];
 //            strongSelf.loginHost = host.host;
             SFOAuthCredentials *credentials = [strongSelf newClientCredentials];

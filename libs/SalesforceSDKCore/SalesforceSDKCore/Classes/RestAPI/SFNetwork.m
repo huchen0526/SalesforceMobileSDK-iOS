@@ -41,6 +41,7 @@
 static NSURLSessionConfiguration *kSFSessionConfig;
 __weak static id<SFNetworkSessionManaging> kSFNetworkManager;
 
+//i`m the new one, why u don't pull me down.
 - (instancetype)initWithEphemeralSession {
     self = [super init];
     if (self) {
